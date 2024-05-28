@@ -6,7 +6,8 @@
 header {
     display: flex;
     justify-content: space-between;
-    margin: 0 16px;
+    border: 1px solid #000;
+    padding: 10px 16px;
 }
 header h1 {}
 header h1 a {}
@@ -60,6 +61,16 @@ main #found_frm .check .user_check {}
 main #found_frm .check .user_check .check_1 {
     margin: 5px 0;
 }
+main #found_frm .check .user_check .check_1 input,
+main #found_frm .check .user_check .check_2 input,
+main #found_frm .check .user_check .check_3 input,
+main #found_frm .check .user_check .check_4 input,
+main #found_frm .check .user_check .check_5 input[type=checkbox] {
+    margin-right: 5px;
+}
+main #found_frm .check .user_check .check_1 input[type=checkbox] {
+    margin-top: 10px;
+}
 main #found_frm .check .user_check .check_2 {
     margin: 5px 0;
 }
@@ -105,11 +116,13 @@ main #found_frm input[type=submit] {
     display: flex;
     justify-content: space-around;
     background-color: #fff;
+    margin-top: 30px;
 }
 #app nav a {
     display: flex;
     flex-flow: column;
     align-items: center ;
+    margin: 12px 16px;
 }
 #app nav a img {
     width: 24px; height: 24px;
