@@ -1,0 +1,118 @@
+#app {
+    width: 430px;
+    margin: 0 auto;
+    background-color: #E6D9B7;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16px;
+}
+header h1 {}
+header h1 a {}
+/* header */
+main {}
+main #found_frm {
+    font-size: 0.75rem;
+}
+main #found_frm .user_info {
+    display: flex;
+    flex-flow: column;
+}
+main #found_frm .user_info .name{
+    display: flex;
+    margin: 30px 16px;
+    justify-content: space-between;
+}
+main #found_frm .user_info .name h2 {}
+main #found_frm .user_info .name input[type=text] {
+    width: 366px; height: 30px;
+}
+main #found_frm .user_info .number {
+    display: flex;
+    margin: 30px 16px;
+    justify-content: space-between;
+}
+main #found_frm .user_info .number h2 {}
+main #found_frm .user_info .number input[type=text] {
+    width: 355px; height: 30px;
+}
+main #found_frm .user_info .email {
+    display: flex;
+    margin: 30px 16px;
+    justify-content: space-between;
+}
+main #found_frm .user_info .email h2 {}
+main #found_frm .user_info .place {
+    display: flex;
+    margin: 30px 16px;
+    justify-content: space-between;
+}
+main #found_frm .user_info .place h2 {}
+main #found_frm .user_info .place input[type=text] {
+    width: 322px; height: 30px;
+}
+main #found_frm .check {
+    margin: 30px 16px;
+}
+main #found_frm .check h2 {}
+main #found_frm .check .user_check {}
+main #found_frm .check .user_check .check_1 {
+    margin: 5px 0;
+}
+main #found_frm .check .user_check .check_2 {
+    margin: 5px 0;
+}
+main #found_frm .check .user_check .check_3 {
+    margin: 5px 0;
+}
+main #found_frm .check .user_check .check_4 {
+    margin: 5px 0;
+}
+main #found_frm .check .user_check .check_5 {
+}
+main #found_frm .user_page {
+    
+}
+main #found_frm .user_page .title {
+    margin: 30px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+main #found_frm .user_page .title h2 {}
+main #found_frm .user_page .title input[type=text] {
+    width: 365px; height: 30px;
+}
+main #found_frm .user_page .contents  {
+    margin: 30px 16px;
+    display: flex;
+}
+main #found_frm .user_page .contents h2 {}
+main #found_frm .user_page .contents p {}
+main .button {
+    background-color: #023586;
+    width: 414px;
+    line-height: 37px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 8px;
+    color: #fff;
+}
+/* main */
+#app nav {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+#app nav a {
+    display: flex;
+    flex-flow: column;
+    align-items: center ;
+}
+#app nav a img {
+    width: 24px; height: 24px;
+}
+#app nav a span {
+    font-size: 0.75rem;
+}

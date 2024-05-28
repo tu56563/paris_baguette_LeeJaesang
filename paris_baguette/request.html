@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>창업절차 | 파리바게트</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/request.css">
+</head>
+<body>
+    <div id="app">
+        <p><img src="./images/Status_Bar_Light.png" alt=""></p>
+        <header>
+            <h1>가맹점 상담 신청</h1>
+            <a href="./index.html"><img src="./images/icon005.svg" alt="뒤로가기"></a>
+        </header>
+        <main>
+            <form action="#" method="post" id="found_frm">
+                <fieldset class="user_info">
+                    <legend class="skip">상담 신청 양식</legend>
+                    <div class="name">
+                        <h2>이름</h2>
+                        <input type="text" name="user_name">
+                    </div>
+                    <div class="number">
+                        <h2>연락처</h2>
+                        <input type="text" name="user_number">
+                    </div>
+                    <div class="email">
+                        <h2>이메일</h2>
+                        <input type="text" name="user_email">
+                        <p>@</p>
+                        <select name="email_list">
+                            <option value="google">google.com</option>
+                            <option value="naver">naver.com</option>
+                            <option value="kakao">kakao.com</option>
+                            <option value="hanmail">hanmail.net</option>
+                            <option value="etc">직접 입력</option>
+                        </select>
+                    </div>
+                    <div class="place">
+                        <h2>창업희망지역</h2>
+                        <input type="text" name="user_place">
+                    </div>
+                </fieldset>
+                <fieldset class="check">
+                    <legend class="skip">신청계기</legend>
+                    <h2>신청계기</h2>
+                    <div class="user_check">
+                        <div class="check_1">
+                            <input type="checkbox" id="box1" value="box1"><label for="box1">인터넷검색</label>
+                        </div>
+                        <div class="check_2">
+                            <input type="checkbox" id="box2" value="box2"><label for="box2">기타</label>
+                        </div>
+                        <div class="check_3">
+                            <input type="checkbox" id="box3" value="box3"><label for="box3">매장방문</label>
+                        </div>
+                        <div class="check_4">
+                            <input type="checkbox" id="box4" value="box4"><label for="box4">지인소개</label>
+                        </div>
+                        <div class="check_5">
+                            <input type="checkbox" id="box5" value="box5"><label for="box5">컨설팅/부동산</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="user_page">
+                    <legend class="skip">제목내용양식</legend>
+                    <div class="title">
+                        <h2>제목</h2>
+                        <input type="text" name="user_title">
+                    </div>
+                    <div class="contents">
+                        <h2>내용</h2>
+                        <p><textarea name="user_contents" cols="59" rows="13"></textarea></p>
+                    </div>
+                </fieldset>
+            </form>
+            <a href="#" class="button">상담신청하기</a>
+        </main>
+        <nav>
+            <a href="#"><img src="./images/icon001.svg" alt="매장소개"><span>매장소개</span></a>
+            <a href="#"><img src="./images/icon002.svg" alt="상담신청"><span>상담신청</span></a>
+            <a href="#"><img src="./images/icon003.svg" alt="배송서비스"><span>배송서비스</span></a>
+            <a href="#"><img src="./images/icon004.svg" alt="프로모션"><span>프로모션</span></a>
+        </nav>
+    </div>
+</body>
+</html>

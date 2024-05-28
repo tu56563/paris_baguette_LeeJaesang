@@ -1,0 +1,122 @@
+#app {
+    width: 430px;
+    margin: 0 auto;
+    background-color: #E6D9B7;
+}
+#app p {}
+#app p img {}
+#app header {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 10px;
+}
+#app header a {
+    font-size: 0.75rem;
+}
+#app header img {}
+/* --------------------------header */
+#app main {}
+#app main #search_frm {
+    
+}
+#app main #search_frm .search_g {
+    border: 1px solid #000;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+#app main #search_frm .search_g > input[name^=search] {
+    border: 0; outline: none;
+    background-color: transparent;
+}
+#app main #search_frm .search_g > a {
+    overflow: hidden;
+    width: 24px; height: 24px;
+}
+/* -----------------search */
+#app main .contents_1 {
+    text-align: center;
+}
+#app main .contents_1 p {}
+#app main .contents_1 p img {}
+#app main .contents_1 h1 {
+    font-weight: 600;
+    color: #023586;
+}
+#app main .contents_2 {
+    text-align: center;
+}
+#app main .contents_2 p {
+    font-size: 10px;
+}
+#app main .contents_2 p img{}
+#app main .contents_2 h1 {
+    font-weight: 600;
+}
+#app main .contents_2 h1 span {
+    color: #023586;
+    font-weight: 600;
+}
+#app main .contents_3 {
+    text-align: center;
+}
+#app main .contents_3 h1 {}
+#app main .contents_3 .img_group {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+#app main .contents_3 p {
+    font-size: 0.625rem;
+}
+#app main .founded {}
+#app main .founded h1 {
+    font-weight: 600;
+}
+#app main .founded h1 span {
+    color: #023586;
+    font-weight: 600;
+}
+#app main .founded .img_wrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+#app main .founded .img_wrap p {
+    display: flex;
+    flex-flow: column nowrap;
+}
+#app main .founded .img_wrap p img {
+    width: 100px; height: 100px;
+}
+#app main .founded .img_wrap p span {
+    background-color: #023586;
+    color: #fff;
+    width: 100px;
+    height: 32px;
+    display: inline-block;
+}
+#app main .founded .img_wrap:nth-child(2) p {
+    padding: 0 21px
+}
+/* -------------main */
+#app nav {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+#app nav a {
+    display: flex;
+    flex-flow: column;
+    align-items: center ;
+}
+#app nav a img {
+    width: 24px; height: 24px;
+}
+#app nav a span {
+    font-size: 0.75rem;
+}
