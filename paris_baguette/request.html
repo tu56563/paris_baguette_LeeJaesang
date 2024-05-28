@@ -23,15 +23,15 @@
                     <legend class="skip">상담 신청 양식</legend>
                     <div class="name">
                         <h2>이름</h2>
-                        <input type="text" name="user_name">
+                        <input type="text" name="user_name" required>
                     </div>
                     <div class="number">
                         <h2>연락처</h2>
-                        <input type="text" name="user_number">
+                        <input type="text" name="user_number" required>
                     </div>
                     <div class="email">
                         <h2>이메일</h2>
-                        <input type="text" name="user_email">
+                        <input type="text" name="user_email" required>
                         <p>@</p>
                         <select name="email_list">
                             <option value="google">google.com</option>
@@ -71,15 +71,15 @@
                     <legend class="skip">제목내용양식</legend>
                     <div class="title">
                         <h2>제목</h2>
-                        <input type="text" name="user_title">
+                        <input type="text" name="user_title" required>
                     </div>
                     <div class="contents">
                         <h2>내용</h2>
-                        <p><textarea name="user_contents" cols="59" rows="13"></textarea></p>
+                        <p><textarea name="user_contents" cols="59" rows="13" required></textarea></p>
                     </div>
                 </fieldset>
+                <input type="submit" value="상담신청하기">
             </form>
-            <a href="#" class="button">상담신청하기</a>
         </main>
         <nav>
             <a href="#"><img src="./images/icon001.svg" alt="매장소개"><span>매장소개</span></a>

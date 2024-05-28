@@ -89,7 +89,7 @@ main #found_frm .user_page .contents  {
 }
 main #found_frm .user_page .contents h2 {}
 main #found_frm .user_page .contents p {}
-main .button {
+main #found_frm input[type=submit] {
     background-color: #023586;
     width: 414px;
     line-height: 37px;
@@ -97,6 +97,7 @@ main .button {
     text-align: center;
     margin-left: 8px;
     color: #fff;
+    border: none;
 }
 /* main */
 #app nav {
